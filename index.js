@@ -60,7 +60,7 @@ async function fetchParties() {
                     method: "POST",
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify(newParty)
-                }};
+                });
 
                 partyForm.reset();
                 fetchParties();
