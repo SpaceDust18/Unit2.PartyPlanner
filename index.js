@@ -1,7 +1,7 @@
 //Define API URL
 const apiUrl = "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2501-ftb-et-web-pt/events";
 
-//This ensures the scrip runs only after the entire HTML document has been loaded 
+//This ensures the script runs only after the entire HTML document has been loaded 
 document.addEventListener("DOMContentLoaded", () => {
 
     //partyList is where the party details will be displayed.
